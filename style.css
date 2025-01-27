@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    max-height: 96px;
+    height: 100%;
+    margin-left: 144px;
+    margin-right: 144px;
+    background-color: #F7FBFA;
+}
+
+.headerLogo {
+    margin-top: 28px;
+    
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px; 
+    margin-top: 24px;
+}
+
+
+
+.burgerMenuIcon {
+    display: none;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 64px;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    color: #202025;
+}
+
+.uploadBtn {
+    display: flex;
+    background-color: #202025;
+    color: #F7FBFA;
+    padding: 12px 36px 12px 36px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+}
+
+.uploadLogo {
+    display: flex;
+    gap: 12px;
+}
+
+.backgroundContainer {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(49.39deg, #D27CFB 0%, #8668FF 29.34%, #1CE4FF 63.6%, #5CFF6C 94.82%);
+    width: 100%;
+    height: auto;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 80px auto;
+}
+
+
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7FBFA;
+    gap: 32px;
+    border-radius: 16px;
+    max-width: 304px;
+    width: 100%;
+    max-height: 232px;
+    height: 100%;
+}
+
+.outerCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: conic-gradient(from 180deg at 50% 50%, #5FFF5C -18.66deg, #FFE249 22.23deg, #F35950 78.14deg, #7C5BFF 159deg, #1CE4FF 202.32deg, #5FFF5C 341.34deg, #FFE249 382.23deg);
+    margin-left: 92px;
+    margin-right: 92px;
+    margin-top: 24px;
+}
+
+
+.innerCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F7FBFA;
+    margin: 24px;
+}
+
+
+.innerCircle span {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.timerWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FBFA;
+    gap: 32px;
+    border-radius: 24px;
+    max-width: 590px;
+    width: 100%;
+    max-height: 184px;
+    height: 100%;
+    margin: 80px auto;
+}
+
+.timerTitle {
+    display: flex;
+    justify-content: flex-start;
+    color: #686A6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.timerWatch {
+    display: flex;
+    justify-content: flex-start;
+    gap: 116.67px;
+    margin-left: 40px;
+}
+
+.number {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+}
+
+.word {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #202025;
+    color: #F7FBFA;
+    font-size: 12px;
+    font-weight: 800;
+    max-width: 590px;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 80px;
+}
+
+.menu {
+    max-width: 1600px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.mainContainer {
+    margin-left: 144px;
+    margin-right: 144px;
+}
+.menuWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 128px;
+    margin-right: 128px;
+}
+
+.leftSideTitle {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    margin-left: 80px;
+}
+
+.rightSideTitles {
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.rightSideTitles p {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+
+.rightSideTitles img {
+    margin-bottom: 24px;
+}
+
+.rightSideTitles div {
+    display: flex;
+    gap: 48px;
+    border-bottom: 1px solid #E1E2E2;
+}
+
+.mainCards {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 32px;
+    margin: 80px auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.memberAndName {
+    display: flex;
+    margin-top: 24px;
+    gap: 12px;
+    border-bottom: 1px solid #E1E2E2;
+    padding-bottom: 16px;
+}
+
+.memberAndName h3 {
+    margin:4px 0 ;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.aboutCard {
+    margin-top: 16px;
+}
+
+.aboutCard h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px 0;
+}
+
+.aboutCard h4 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #686A6C;
+    ;
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBtnContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7FBFA;
+    max-height: 48px;
+    height: 100%;
+    margin-top: 80px;
+    padding: 20px 52.8px ;
+    border-radius: 4px;
+    border: 2px solid #555555;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.footerContainer {
+    margin-top: 168px;
+}
+
+.footerWrapper {
+    display: flex;
+    gap: 50px;
+    margin-left: 144px;
+}
+
+.footerMenuContent {
+    display: flex;
+    gap: 104px;
+    
+}
+
+
+.first-footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.first-footerContent p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #686A6C;
+}
+
+.second-footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.second-footerContent p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #686A6C;
+}
+
+.third-footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.third-footerContent p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #686A6C;
+}
+
+.thirdContent {
+    display: flex;
+    gap: 8px;
+}
+
+.bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 74px;
+}
+
+.bottomFooterLogos {
+    display: flex;
+    gap: 32px;
+}
+
+.bottomTitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A6AEAD;
+}
+
+.bottomLogo {
+    color: #686A6C;
+}
+
+
+@media (max-width: 599px) {
+    .burgerMenuIcon {
+        display: inline;
+    }
+
+    .navbarContent {
+        display: flex;
+        justify-content: space-between;
+    } 
+    .navbarContent nav {
+        display: none;
+    }
+    .navbarContent button {
+        display: none;
+    }
+
+    .backgroundContainer {
+        width: 100vw;
+    }
+}
